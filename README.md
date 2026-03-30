@@ -184,6 +184,6 @@ Commands were given step by step — one file at a time — with screenshots of 
 
 ## 9. Demo Video
 
-[Add your Loom or YouTube Unlisted link here]
+https://www.loom.com/share/f583b77485764ca18de46a8b1c4fe385
 
 ---
