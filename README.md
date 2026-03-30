@@ -30,8 +30,8 @@ JWT_SECRET=super_secret_jwt_key_taskflow_2025
 JWT_REFRESH_SECRET=super_secret_refresh_key_taskflow_2025
 JWT_EXPIRES_IN=7d
 JWT_REFRESH_EXPIRES_IN=7d
-GITHUB_CLIENT_ID=Ov23lim7wjN2f77giTNl
-GITHUB_CLIENT_SECRET=e18a9f286b6d0043afaadec3fa761566c5e142b9
+GITHUB_CLIENT_ID=your_github_client_id
+GITHUB_CLIENT_SECRET=your_github_client_secret
 GITHUB_CALLBACK_URL=http://localhost:3001/auth/github/callback
 FRONTEND_URL=http://localhost:3000
 ```
@@ -39,14 +39,14 @@ FRONTEND_URL=http://localhost:3000
 **task-service/.env**
 ```env
 PORT=3002
-MONGODB_URI=mongodb+srv://taskflow:Taskflow%402025@cluster0.jzn6kd5.mongodb.net/taskflow?retryWrites=true&w=majority
+MONGODB_URI=your_mongodb_uri
 JWT_SECRET=super_secret_jwt_key_taskflow_2025
 FRONTEND_URL=http://localhost:3000
 ```
 
 **frontend/.env.local**
 ```env
-GEMINI_API_KEY=AIzaSyAfAkZJIOsrUiIsv9I-ZE5Ojwox2VBTjbY
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ### Step 3: Install dependencies
@@ -187,12 +187,3 @@ Commands were given step by step — one file at a time — with screenshots of 
 [Add your Loom or YouTube Unlisted link here]
 
 ---
-
-## Bonus Features Implemented
-
-| # | Feature | Status |
-|---|---------|--------|
-| B1 | Activity Log | ✅ Implemented |
-| B2 | Docker Compose | ✅ Implemented |
-| B3 | AI Summary (Gemini) | ✅ Implemented |
-| B4 | Agentic IDE Notes | ✅ This README |
